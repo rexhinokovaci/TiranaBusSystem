@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/moreInfoView"
+        android:layout_width="134dp"
+        android:layout_height="78dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+
+        android:src="@drawable/ic_baseline_more_horiz_24" />
+
+    <ImageView
+        android:id="@+id/zonatVeriore"
+        android:layout_width="107dp"
+        android:layout_height="101dp"
+        android:layout_below="@+id/moreInfoView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="59dp" />
+
+    <ImageView
+        android:id="@+id/zonatJugore"
+        android:layout_width="125dp"
+        android:layout_height="128dp"
+        android:layout_below="@+id/moreInfoView"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp" />
+
+    <ImageView
+        android:id="@+id/urbaniTirane"
+        android:layout_width="107dp"
+        android:layout_height="93dp"
+        android:layout_below="@+id/zonatVeriore"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="72dp" />
+
+
+    <ImageView
+        android:id="@+id/taksiteTirane"
+        android:layout_width="128dp"
+        android:layout_height="93dp"
+        android:layout_below="@+id/zonatJugore"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="61dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp" />
+
+
+    <ImageView
+        android:id="@+id/oraretTirane"
+        android:layout_width="140dp"
+        android:layout_height="104dp"
+        android:layout_below="@+id/urbaniTirane"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="87dp" />
+
+
+    <ImageView
+        android:id="@+id/oraretRetheve"
+        android:layout_width="134dp"
+        android:layout_height="93dp"
+        android:layout_below="@+id/taksiteTirane"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="82dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp" />
+
+
+</RelativeLayout>
+
+
+
+
