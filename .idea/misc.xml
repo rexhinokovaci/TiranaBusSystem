@@ -3,8 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/kovac/AndroidStudioProjects/TiranaBusSystem/app/src/main/res/drawable/buttonconfirm.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/kovac/AndroidStudioProjects/TiranaBusSystem/app/src/main/res/drawable/buttonforpopup.xml" value="0.22552083333333334" />
         <entry key="..\:/Users/kovac/AndroidStudioProjects/TiranaBusSystem/app/src/main/res/layout/activity_loading.xml" value="0.12771739130434784" />
         <entry key="..\:/Users/kovac/AndroidStudioProjects/TiranaBusSystem/app/src/main/res/layout/activity_main.xml" value="0.12771739130434784" />
+        <entry key="..\:/Users/kovac/AndroidStudioProjects/TiranaBusSystem/app/src/main/res/layout/activity_oraret_tirane.xml" value="0.12817028985507245" />
         <entry key="..\:/Users/kovac/AndroidStudioProjects/TiranaBusSystem/app/src/main/res/layout/activity_taksite_tirane.xml" value="0.12771739130434784" />
         <entry key="..\:/Users/kovac/AndroidStudioProjects/TiranaBusSystem/app/src/main/res/layout/activity_urbani_tirane.xml" value="0.12771739130434784" />
         <entry key="..\:/Users/kovac/AndroidStudioProjects/TiranaBusSystem/app/src/main/res/layout/activity_zonat_jugore.xml" value="0.12771739130434784" />

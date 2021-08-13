@@ -44,4 +44,4 @@ public class UrbaniTirane extends AppCompatActivity {
 
 //        https://opendata.tirana.al/?q=story/itinerari-i-15-linjave-t%C3%AB-transportit-publik-urban
     }
-}
+

@@ -40,6 +40,6 @@ public class OraretTirane extends AppCompatActivity {
             super.onBackPressed();
         }
 
-    
+
     }
 }
