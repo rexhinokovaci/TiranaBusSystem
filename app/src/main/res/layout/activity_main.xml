@@ -9,53 +9,57 @@
 
     <ImageView
         android:id="@+id/zonatVeriore"
-        android:layout_width="107dp"
-        android:layout_height="101dp"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+
         android:layout_alignParentStart="true"
-        android:adjustViewBounds="true"
-        android:src="@drawable/zonatveriore"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="30dp"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="35dp" />
+        android:layout_marginTop="82dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/zonatveriore" />
 
     <ImageView
         android:id="@+id/zonatJugore"
-        android:layout_width="125dp"
-        android:adjustViewBounds="true"
-        android:src="@drawable/zonatjugore"
-        android:layout_height="128dp"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="31dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginRight="20dp" />
+        android:layout_marginTop="82dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="20dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/zonatjugore" />
 
     <ImageView
         android:id="@+id/urbaniTirane"
-        android:layout_width="107dp"
-        android:layout_height="93dp"
-        android:adjustViewBounds="true"
-        android:src="@drawable/urbanitirane"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+
         android:layout_below="@+id/zonatVeriore"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
-        android:layout_marginStart="32dp"
-        android:layout_marginLeft="32dp"
-        android:layout_marginTop="72dp" />
+
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="82dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/urbanitirane" />
 
 
     <ImageView
         android:id="@+id/taksiteTirane"
-        android:layout_width="128dp"
-        android:layout_height="93dp"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+
         android:layout_below="@+id/zonatJugore"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="61dp"
-        android:layout_marginEnd="36dp"
+        android:layout_marginTop="82dp"
+        android:layout_marginEnd="30dp"
         android:layout_marginRight="36dp"
         android:adjustViewBounds="true"
         android:src="@drawable/taksitenetirane" />
@@ -63,28 +67,29 @@
 
     <ImageView
         android:id="@+id/oraretTirane"
-        android:layout_width="140dp"
-        android:layout_height="104dp"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
         android:layout_below="@+id/urbaniTirane"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="82dp"
         android:adjustViewBounds="true"
-        android:src="@drawable/oraretetiranes"
-        android:layout_marginStart="24dp"
-        android:layout_marginLeft="24dp"
-        android:layout_marginTop="87dp" />
+        android:src="@drawable/oraretetiranes" />
 
 
     <ImageView
         android:id="@+id/oraretRetheve"
-        android:layout_width="154dp"
-        android:layout_height="129dp"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+
         android:layout_below="@+id/taksiteTirane"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_marginTop="82dp"
-        android:layout_marginEnd="44dp"
-        android:layout_marginRight="44dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
         android:adjustViewBounds="true"
 
         android:src="@drawable/oraretrretheve" />
