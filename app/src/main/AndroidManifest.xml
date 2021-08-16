@@ -13,6 +13,9 @@
         android:theme="@style/Theme.TiranaBusSystem"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".OraretRretheve"
+            android:exported="true" />
+        <activity
             android:name=".OraretTirane"
             android:exported="true" />
         <activity

@@ -9,25 +9,31 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    Dialog simulatorDialog,twitterDialog;
+    Dialog simulatorDialog;
+    TextView titleTv, messageTv;
+    ImageView close;
+    Button btnAccept;
 
-    ImageView moreInfoView, zonatVeriore,
-            zonatJugore,urbaniTirane, taksiteTirane, oraretRretheve;
+    ImageView zonatVeriore,
+            zonatJugore, urbaniTirane, taksiteTirane, oraretRretheve, oraretTirane;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        moreInfoView = findViewById(R.id.moreInfoView);
+
         zonatVeriore = findViewById(R.id.zonatVeriore);
         zonatJugore = findViewById(R.id.zonatJugore);
         urbaniTirane = findViewById(R.id.urbaniTirane);
         taksiteTirane = findViewById(R.id.taksiteTirane);
         oraretRretheve = findViewById(R.id.oraretRetheve);
+        oraretTirane = findViewById(R.id.oraretTirane);
+        simulatorDialog = new Dialog(this);
 
         zonatVeriore.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -46,22 +52,54 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        taksiteTirane.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, TaksiteTirane.class);
+                startActivity(intent);
+            }
+        });
 
 
+        urbaniTirane.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, UrbaniTirane.class);
+                startActivity(intent);
+            }
+        });
 
+        oraretRretheve.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, OraretRretheve.class);
+                startActivity(intent);
+            }
+        });
+
+        oraretTirane.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openSimulatorActivity();
+            }
+        });
 
 
     }
+
     public void openSimulatorActivity() {
         simulatorDialog.setContentView(R.layout.activity_oraret_tirane);
         ImageView close = simulatorDialog.findViewById(R.id.popUpClose);
         Button btnAccept = simulatorDialog.findViewById(R.id.buttonAccept);
 
         close.setOnClickListener(new View.OnClickListener() {
-            @Override public void onClick(View v) { simulatorDialog.dismiss();
+            @Override
+            public void onClick(View v) {
+                simulatorDialog.dismiss();
 
-            }});
+            }
+        });
+        simulatorDialog.show();
 
     }
-
 }
