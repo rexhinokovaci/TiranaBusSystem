@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
     public void openSimulatorActivity() {
         simulatorDialog.setContentView(R.layout.activity_oraret_tirane);
         ImageView close = simulatorDialog.findViewById(R.id.popUpClose);
-        Button btnAccept = simulatorDialog.findViewById(R.id.buttonAccept);
+//        Button btnAccept = simulatorDialog.findViewById(R.id.buttonAccept);
 
         close.setOnClickListener(new View.OnClickListener() {
             @Override

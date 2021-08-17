@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Networks</string>
+    <string name="app_name">Tirana Bus System</string>
     <string name="firstBtn">Binary</string>
 
     <string name="second_Btn">Subnet</string>
@@ -11,8 +11,8 @@
     <string name="thirdOctetHint">1</string>
     <string name="fourthOctetHint">1</string>
     <string name="cidrHint">26</string>
-    <string name="textPopUpConfirmation">Out Of Our Hands!</string>
-    <string name="textPopUpEnd">We Will Re-direct to an open source network simulator created by Netsim!</string>
+    <string name="textPopUpConfirmation">Notice!</string>
+    <string name="textPopUpEnd">Itinerary and stations of Tirana public transport lines within the urban administrative units as well as the map of the itineraries. Tickets cost 40 lek/ 0.3 Euro and public transport hours are 06:00 - 23:00 every day (regardless of holidays or days of the week).</string>
     <string name="closeDescription">Closing</string>
     <string name="ImageDescription">Image</string>
     <string name="confirmation">CONFIRM</string>

@@ -88,17 +88,17 @@
                     android:gravity="center_horizontal" />
 
 
-                <Button
+<!--                <Button-->
 
-                    android:id="@+id/buttonAccept"
-                    android:layout_width="200dp"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginTop="20dp"
-                    android:background="@drawable/buttonforpopup"
-                    android:fontFamily="sans-serif"
-                    android:text="@string/confirmation"
-                    android:textColor="@color/firstColor" />
+<!--                    android:id="@+id/buttonAccept"-->
+<!--                    android:layout_width="200dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_gravity="center_horizontal"-->
+<!--                    android:layout_marginTop="20dp"-->
+<!--                    android:background="@drawable/buttonforpopup"-->
+<!--                    android:fontFamily="sans-serif"-->
+<!--                    android:text="@string/confirmation"-->
+<!--                    android:textColor="@color/firstColor" />-->
 
 
             </LinearLayout>

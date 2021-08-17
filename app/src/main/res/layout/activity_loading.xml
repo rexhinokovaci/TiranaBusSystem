@@ -20,6 +20,7 @@
         android:layout_marginTop="220dp"
         android:layout_marginEnd="109dp"
         android:contentDescription="@string/todo"
+        android:src="@drawable/logo"
         android:foregroundGravity="center"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true" />
